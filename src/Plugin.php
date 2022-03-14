@@ -8,7 +8,7 @@ use Pest\Contracts\Plugins\AddsOutput;
 use Pest\Contracts\Plugins\HandlesArguments;
 use Symfony\Component\Console\Output\OutputInterface;
 
-final class Memory implements AddsOutput, HandlesArguments
+final class Plugin implements AddsOutput, HandlesArguments
 {
     /** @var OutputInterface */
     private $output;
