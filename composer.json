@@ -1,6 +1,6 @@
 {
-    "name": "pestphp/pest-plugin-template",
-    "description": "My awesome plugin",
+    "name": "owenvoke/pest-plugin-memory",
+    "description": "A memory plugin for Pest 1.x",
     "keywords": [
         "php",
         "framework",
@@ -18,11 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Pest\\PluginName\\": "src/"
-        },
-        "files": [
-            "src/Autoload.php"
-        ]
+            "OwenVoke\\PestPluginMemory\\": "src/"
+        }
     },
     "require-dev": {
         "pestphp/pest-dev-tools": "dev-master"
@@ -30,6 +27,11 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
+        },
+        "pest": {
+            "plugins": [
+                "OwenVoke\\PestPluginMemory\\Plugin"
+            ]
         }
     },
     "minimum-stability": "dev",
