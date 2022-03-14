@@ -13,7 +13,8 @@ final class Memory implements AddsOutput, HandlesArguments
     /** @var OutputInterface */
     private $output;
 
-    private bool $enabled = false;
+    /** @var bool */
+    private $enabled = false;
 
     public function __construct(OutputInterface $output)
     {
