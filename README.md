@@ -1,4 +1,6 @@
-This repository contains the Pest Plugin Template.
+This repository contains the Pest Memory Plugin for Pest 1.x.
+
+> **Note:** This will be available out of the box in Pest 2.x
 
 > If you want to start testing your application with Pest, visit the main **[Pest Repository](https://github.com/pestphp/pest)**.
 
